@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "commonjs",
+      "allowJs": true,                       
+      "sourceMap": true,         
+      "esModuleInterop":true,            
+      "outDir": "./dist",
+
+      "lib": [
+        "ES2020","DOM", "DOM.Iterable"
+      ],                   
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+    ]
+}
