@@ -1,9 +1,6 @@
-import { findAnagrams } from './findAnagrams';
-import yargs from 'yargs/yargs';
-import { hideBin } from 'yargs/helpers';
 
-const argv = yargs(hideBin(process.argv)).options({
-  anagramFileName: { type: 'string', default: 'example1.txt' },
-}).argv;
+export const helloWorld = () => {
+  console.error('hello world')
+}
 
-findAnagrams(argv.anagramFileName);
+helloWorld();
